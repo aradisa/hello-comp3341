@@ -1,0 +1,32 @@
+$container-bg-color: #CCC;
+$form-border: solid thin #B3B3B3;
+
+#mainContainer {
+  width: 500px;
+  margin: 0 auto;
+  background-color: $container-bg-color;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+form {
+  border-top: $form-border;
+  padding-top: 10px;
+}
+
+.form-group {
+  input[type="text"] {
+    width: 430px !important;
+  }
+}
+
+
+#toDoList {
+  list-style: none;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
