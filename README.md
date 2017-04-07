@@ -1,1 +1,3 @@
-# hello-comp3341
+file name: hello-comp341
+Author: alex
+description: experimenting with github
